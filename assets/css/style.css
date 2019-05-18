@@ -24,6 +24,7 @@ h1 {
 h2 {
     color:#4aaaa5;
     font-family:'Georgia', Times, Times New Roman, serif;
+    border-bottom: 5px solid #777777;
 }
 
 footer {
@@ -36,6 +37,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    border-top: 10px solid #4aaaa5;
 }
 
 img{
