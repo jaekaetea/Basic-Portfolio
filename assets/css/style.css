@@ -11,6 +11,7 @@ header {
     border-bottom-color:#dddddd;
     border-bottom-width: 2px;
     margin-bottom:20px;
+    z-index:1;
 }
 
 body {
@@ -30,6 +31,8 @@ h1 {
 
 span {
     background-color:#4aaaa5;
+    color: #ffffff;
+    opacity:100%;
     padding: 0 10px;
     padding: 25px 20px 22px;
 }
@@ -57,11 +60,12 @@ footer {
     width: 100%;
     border-top: 5px solid #4aaaa5;
     margin-top:20px;
+    padding-bottom:5px;
 }
 
 img{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     display: flex;
     flex-wrap: wrap;
     float:left;
@@ -88,6 +92,7 @@ li{
 
 li a:hover{
     background-color:#4aaaa5;
+    color:white;
 }
 
 .div1{
@@ -104,12 +109,14 @@ li a:hover{
     display: table;
     overflow: auto;
     margin-top: 120px;
+    margin-bottom: 80px;
 }
+
 
 .button {
     background-color: #4aaaa5;
-    border: none;
     color: white;
+    border: none;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -123,11 +130,20 @@ li a:hover{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
     text-decoration: none; 
-    margin: 10px; 
+    margin: 5px;
+    padding: 10px;
 }
 
 form{
     margin:20px;
+}
+
+input{
+    padding:5px;
+}
+
+.pForm{
+    margin:15px 0 5px;
 }
 
 p{
@@ -137,23 +153,3 @@ p{
 .border{
     border-bottom:2px solid #dddddd;
 }
-
-#tired{
-    margin:10px;
-}
-
-/*nav{
-    position:relative;
-    top:0;
-    right:0;
-}*/
-
-/*THINGS TO WORK ON
-1) Name only highlightend
-2) Words padded from the border
-3) Move text away from picture
-4) Thicker footer
-5) Contact needs border
-6)
-
-*/
